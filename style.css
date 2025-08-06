@@ -1,48 +1,41 @@
-*{
-    margin: 0%;
+* {
+    margin: 0;
     padding: 0;
 }
 
-
-.container{
-
+.container {
     width: 100%;
     height: 100vh;
     background-color: lightblue;
     display: flex;
+    flex-direction: column; /* Stack weather + search vertically */
     justify-content: center;
     align-items: center;
- 
-
-
 }
 
-.weather_container{
-    color : white
+.weather_container {
+    color: white;
+    text-align: center;
 }
 
-.temp{
-        font-size:4.5rem ;
-
+.temp {
+    font-size: 4.5rem;
 }
 
-.time_location{
-    font-size: 2rem ;
+.time_location {
+    font-size: 2rem;
 }
 
-.condition{
-    margin: 0.5rem ;
-    margin-left: 0.2rem ;
+.condition {
+    margin: 0.5rem 0.2rem;
 }
 
-nav{
+nav {
     height: 100px;
-
-    margin: 5rem;
-
+    margin-top: 3rem;
 }
 
-.search_area{
+.search_area {
     padding: 1rem 0;
     outline: none;
     border: none;
@@ -50,14 +43,13 @@ nav{
     background-color: transparent;
     font-size: 1.1rem;
     border-bottom: 2px solid white;
+}
 
 nav form button {
     padding: 0.5rem;
     background-color: white;
-    margin-top: 1rem;
+    margin-left: 1rem;
     font-size: 1.1rem;
     outline: none;
     border: none;
     cursor: pointer;
-}
-}
