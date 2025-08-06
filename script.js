@@ -63,7 +63,4 @@ function getDayName(number) {
         case 6: return "Saturday";
     }
 }    
-                        
-
-    }
-}
+     
