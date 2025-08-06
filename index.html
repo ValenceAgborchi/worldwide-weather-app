@@ -1,50 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8"> <!--Character encoding-->
-        <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
-        <!-- Ensures the page is displayed in the latest version of IE if it's used -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Mobile friendly-->
-        <title>Weather App by Valence</title>
-        <link rel="stylesheet" href="style.css"
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <!-- Ensures the page is displayed in the latest version of IE if it's used -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile friendly -->
+    <title>Weather App by Valence</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>   
-        <div class="container">
- 
+    <div class="container">
+        <div class="weather_container">
+            <div class="temp">
+                <p>20</p>
+            </div>
 
-            <div class="weather_container">
-                    <div class="temp">
-                            <p>20</p>
+            <div class="time_location">
+                <p class="location-name">Innisfil</p>
+                <span class="date-time">11:07 - Sunday 2025-05-11</span>
+            </div>
 
-                    </div>
-
-                    <div class="time_location">
-                        <p>Innisfil</p>
-                        <p>11:07 - Sunday 2025-05-11</p>
-
-                    </div>
-
-                    <div class="condition">
-                            <p></p>
-
-                            <p>Sunny</p>
-                    </div>
+            <div class="condition">
+                <p>Sunny</p>
+            </div>
         </div>
+
         <nav>
-                <form>
-                    <input type='text' placeholder="Search for a City" class='search_area'/>
-                    <button type="submit">Search</button>
-                        </form>
+            <form>
+                <input type="text" placeholder="Search for a City" class="search_area" />
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </div>
 
-                </nav>
-        </div>
-
-
-
-        
-
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
-
 </html>
-
